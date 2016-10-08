@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyZodiak</string>
+    <string name="text_logo">Zodiac For Everyone</string>
+
+    <string name="ramalan_umum">Ramalan Umum</string>
+    <string name="ramalan_cinta">Ramalan Cinta</string>
+    <string name="ramalan_karir">Ramalan Karir</string>
+    <string name="keterangan_ramalan">Keterangan Ramalan</string>
+
+    <string name="nama_zodiak">Nama Zodiak</string>
+    <string name="range_zodiak">Range Zodiak</string>
+</resources>

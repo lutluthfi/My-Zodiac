@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gambar_umum"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_umum" />
+
+            <TextView
+                android:id="@+id/nama_umum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/ramalan_umum"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/keterangan_umum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="@string/keterangan_ramalan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gambar_cinta"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_cinta" />
+
+            <TextView
+                android:id="@+id/nama_cinta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/ramalan_cinta"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="7dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/ic_single" />
+
+            <TextView
+                android:id="@+id/keterangan_cinta_single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/keterangan_ramalan" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="7dp">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:background="@drawable/ic_couple" />
+
+            <TextView
+                android:id="@+id/keterangan_cinta_couple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="@string/keterangan_ramalan" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/gambar_karir"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_karir" />
+
+            <TextView
+                android:id="@+id/nama_karir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/ramalan_karir"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/keterangan_karir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="@string/keterangan_ramalan" />
+    </LinearLayout>
+
+</LinearLayout>
